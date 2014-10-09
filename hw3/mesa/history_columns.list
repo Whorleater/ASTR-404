@@ -5,7 +5,7 @@
       model_number ! counting from the start of the run
       star_age ! elapsed simulated time in years since the start of the run
       star_mass ! in Msun units
-
+	  
    ! conditions at the photosphere
       log_Teff ! log10 effective temperature
 

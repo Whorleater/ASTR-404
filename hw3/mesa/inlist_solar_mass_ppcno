@@ -9,7 +9,7 @@
   ! change the hydrogen burning
       change_net = .true.
       new_net_name = 'pponly.net'
-!      new_net_name = 'cnoonly.net'
+     ! new_net_name = 'cnoonly.net'
       
       auto_extend_net = .false.
 

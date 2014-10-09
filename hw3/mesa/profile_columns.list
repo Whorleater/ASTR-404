@@ -7,6 +7,14 @@
    logT ! log10(temperature) at center of zone
    logRho ! log10(density) at center of zone
    logP ! log10(pressure) at center of zone
+   
+   mass
+   
+   radius
+   
+   pp
+   
+   cno
 
    eps_nuc ! ergs/g/sec from nuclear reactions (reaction neutrinos subtracted)
    add_abundances ! this adds all of the isos that are in the current net
