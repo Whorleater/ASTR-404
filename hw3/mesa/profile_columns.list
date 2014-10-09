@@ -1,0 +1,14 @@
+! the following lines of the profile contain info for 1 zone per row, surface to center.
+
+   zone ! numbers start with 1 at the surface
+   q ! fraction of star mass interior to outer boundary of this zone
+   logR ! log10(radius/Rsun) at outer boundary of zone
+
+   logT ! log10(temperature) at center of zone
+   logRho ! log10(density) at center of zone
+   logP ! log10(pressure) at center of zone
+
+   eps_nuc ! ergs/g/sec from nuclear reactions (reaction neutrinos subtracted)
+   add_abundances ! this adds all of the isos that are in the current net
+
+   mixing_type ! mixing types are defined in mesa/mlt/public/mlt_def.f

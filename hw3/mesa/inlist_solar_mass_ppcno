@@ -1,0 +1,35 @@
+&star_job
+
+  ! choose starting model
+      create_pre_main_sequence_model = .true.
+
+  ! plot or not
+      pgstar_flag = .true.
+
+  ! change the hydrogen burning
+      change_net = .true.
+      new_net_name = 'pponly.net'
+!      new_net_name = 'cnoonly.net'
+      
+      auto_extend_net = .false.
+
+  ! control the output
+      history_columns_file = 'history_columns.list'
+      profile_columns_file = 'profile_columns.list'
+
+/ !end of star_job
+
+&controls
+
+  ! starting specifications
+      initial_mass = 1d0 ! in Msun units
+      initial_Z = 0.02d0 ! solar metalicity
+
+  ! stop at core H exhaustion
+      xa_central_lower_limit_species(1) = 'h1'
+      xa_central_lower_limit(1) = 1e-2
+
+  ! make output more frequent
+      history_interval = 1
+      
+/ !end of controls
