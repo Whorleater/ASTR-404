@@ -14,3 +14,5 @@
 /Users/peixianwang/Classes/astr404/hw3/mesa/LOGS
 /Users/peixianwang/Classes/astr404/hw3/mesa/LOGS
 /Users/peixianwang/Classes/astr404/hw3/mesa/LOGS
+/Users/peixianwang/Classes/astr404/hw3/mesa/LOGS
+/Users/peixianwang/Classes/astr404/hw3/mesa/LOGS
