@@ -1,0 +1,23 @@
+&pgstar
+
+      ! show the main summary window
+
+!	Summary_Profile_win_flag = .true
+
+      ! don't show the main window
+
+!         MAIN_win_flag = .false.
+
+      History_Track2_win_flag = .true.    
+      
+	  
+      History_Track2_xname = 'star_age'
+      History_Track2_xaxis_label = 'Age'
+	  
+	  History_Track2_yname = 'log_R'
+	  History_Track2_yaxis_label = 'Radius'
+	  
+	  
+	  
+
+/ ! end of pgstar namelist

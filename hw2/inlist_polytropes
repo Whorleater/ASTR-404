@@ -1,0 +1,30 @@
+! inlist to evolve a 2 solar mass star
+
+! For the sake of future readers of this file (yourself included),
+! ONLY include the controls you are actually using.  DO NOT include
+! all of the other controls that simply have their default values.
+
+&star_job
+
+  ! begin with a pre-main sequence model
+    create_pre_main_sequence_model = .true.
+
+  ! save a model at the end of the run
+    save_model_when_terminate = .false.
+
+  ! display on-screen plots
+    pgstar_flag = .true.
+
+/ !end of star_job namelist
+
+
+&controls
+
+  ! starting specifications
+    initial_mass = 20 ! in Msun units
+
+  ! stop when the star gets just past ZAMS (Lnuc/L = 1.)
+    Lnuc_div_L_zams_limit = 1d0
+    stop_near_zams = .true.
+
+/ ! end of controls namelist

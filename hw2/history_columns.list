@@ -1,0 +1,34 @@
+! the following lines of the log file contain info about 1 model per row
+
+   ! some general info about the model
+
+      model_number ! counting from the start of the run
+      star_age ! elapsed simulated time in years since the start of the run
+      star_mass ! in Msun units
+
+   ! conditions at the photosphere
+      log_Teff ! log10 effective temperature
+
+   ! conditions at or near the surface of the model (outer edge of outer cell)
+
+      log_L ! log10 luminosity in Lsun units
+      log_R ! log10 radius in Rsun units
+
+   ! conditions near center
+
+      log_center_T ! temperature
+      log_center_Rho ! density
+      log_center_P ! pressure
+
+   ! quantities used in determining if we made it to the ZAMS
+
+      log_Lnuc ! log(LH + LHe + LZ)
+      log_abs_Lgrav ! log10 abs(eps_grav_integral) (in Lsun units)
+      v_surf_div_v_kh ! v_surf/(photosphere_r/kh_timescale)
+
+   ! quantities for determining if the core is convective
+
+      he_core_mass
+      mass_conv_core ! (Msun) mass coord of top of convective core.  0 if core is not convective
+
+      center_dL_dm ! Center luminosity per mass
